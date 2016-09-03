@@ -18,7 +18,6 @@ namespace EBR_Test.Tests
             Grade n = null;
             Assert.AreEqual(1, m.CompareTo(n));
         }
-
         [TestMethod()]
         public void CompareToTest_FirstName()
         {
