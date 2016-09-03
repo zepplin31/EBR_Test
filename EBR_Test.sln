@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBR_Test", "EBR_Test\EBR_Test.csproj", "{0333DFB7-316C-4542-9367-13151F6B623F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBR_TestTests", "EBR_TestTests\EBR_TestTests.csproj", "{F67F9DBC-C5C8-4CAB-B332-750C7AFF561C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0333DFB7-316C-4542-9367-13151F6B623F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0333DFB7-316C-4542-9367-13151F6B623F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0333DFB7-316C-4542-9367-13151F6B623F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0333DFB7-316C-4542-9367-13151F6B623F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67F9DBC-C5C8-4CAB-B332-750C7AFF561C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67F9DBC-C5C8-4CAB-B332-750C7AFF561C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67F9DBC-C5C8-4CAB-B332-750C7AFF561C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67F9DBC-C5C8-4CAB-B332-750C7AFF561C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
