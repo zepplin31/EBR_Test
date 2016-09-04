@@ -18,18 +18,25 @@ namespace EBR_Test
                 return;
             }
 
-            //test for string format
-
             string line;
             string filename = args[0];
+
             List<Grade> gradelist = new List<Grade>();
             StreamReader file = new StreamReader(filename);
-            
+
             while ((line = file.ReadLine()) != null)
             {
-                //check string format:
+                //check string format: basic check only - no exact specification 
+                if (line.Count(f => f == ',') != 2)
+                    continue;
+
+                int j = 0;
                 string[] parts = line.Split(',');
-                gradelist.Add(new Grade { Surname = parts[0], Firstname = parts[1], Score = Convert.ToInt32(parts[2]) } );
+                
+                //check that the number is valid
+                int.TryParse(parts[2], out j);
+
+                gradelist.Add(new Grade { Surname = parts[0], Firstname = parts[1], Score = j } );
                 gradelist.Sort();              
             }
 
